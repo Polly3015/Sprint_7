@@ -61,7 +61,6 @@ public class TestCreateCourier {
     @Test
     @Step("Успешное создание курьера")
     public void testCreateCourierSuccess() {
-        //Courier courier = new Courier("test140", "123456", "Polly");
 
         given()
                 .header("Content-type", "application/json")
@@ -126,12 +125,6 @@ public class TestCreateCourier {
                     .statusCode(200);
         }
     }
-
-
-
-
-
-
 
 
 }

@@ -12,8 +12,6 @@ import static org.hamcrest.Matchers.*;
 
 public class TestCreateOrder {
 
-    static Order order = new Order("Иван", "Иванович", "Арбат", "3", "891611111111", 5, "2026-09-18", "Плачу наличными", new String[]{"BLACK", "GRAY"});
-
     private static Stream<List<String>> provideColorOptions() {
         return Stream.of(
                 List.of("BLACK"),
